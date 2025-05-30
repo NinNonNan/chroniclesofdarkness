@@ -1,45 +1,98 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Scheda WoD</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weird Tales - La Cripta del Mistero</title>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Special+Elite&display=swap" rel="stylesheet">
   <style>
     body {
+      background: linear-gradient(#1b1b1b, #000);
+      color: #f9e58c;
+      font-family: 'Special Elite', monospace;
       margin: 0;
       padding: 0;
-      font-family: sans-serif;
-      background-color: #f4f4f4;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
     }
-    .iframe-container {
-      width: 90%;
-      max-width: 900px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
-      background-color: white;
+
+    header {
+      background: #6c0101;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 4px solid #ffcc00;
+    }
+
+    header h1 {
+      font-family: 'Big Shoulders Display', cursive;
+      font-size: 4rem;
+      color: #ffcc00;
+      text-shadow: 2px 2px 0 #000;
+      margin: 0;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
       padding: 1rem;
-      border-radius: 8px;
+      background: #2c2c2c;
+      border: 3px dashed #ffcc00;
+      box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
     }
-    iframe {
-      width: 100%;
-      height: 500px;
-      border: none;
+
+    h2 {
+      color: #ff4444;
+      font-family: 'Big Shoulders Display', cursive;
+      font-size: 2rem;
+      margin-top: 0;
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+
+    .illustration {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .illustration img {
+      max-width: 100%;
+      border: 5px solid #ffcc00;
+      box-shadow: 0 0 20px #ff0000;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #888;
+      background: #111;
+      border-top: 2px solid #ffcc00;
     }
   </style>
 </head>
 <body>
-  <div class="iframe-container">
-    <iframe 
-      src="https://coda.io/embed/2j1wBNlqcx/_su4t9dFU?viewMode=embedplay&hideSections=true" 
-      width="100%" 
-      height="100%" 
-      style="max-width: 100%;" 
-      allow="fullscreen">
-    </iframe>      
-  </div>
+  <header>
+    <h1>Weird Tales</h1>
+  </header>
+
+  <main>
+    <h2>La Cripta del Mistero</h2>
+    <p>
+      In una notte senza luna, il dottor Vermilion aprì la botola segreta al centro del cimitero di Black Hollow. Nessuno aveva osato esplorare le profondità della cripta maledetta, dove secondo le leggende si annidava il cuore pulsante dell'ignoto...
+    </p>
+    
+    <div class="illustration">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Weird_Tales_September_1934.jpg" alt="Copertina Weird Tales" />
+    </div>
+
+    <p>
+      ...ma qualcosa si mosse tra le ombre. Qualcosa che aveva atteso a lungo. Con artigli d'ossa e sussurri arcani, la creatura emerse. E con essa, il terrore eterno.
+    </p>
+  </main>
+
+  <footer>
+    © 1952 - Weird Tales Revival. Tutti i diritti sono stati probabilmente maledetti.
+  </footer>
 </body>
 </html>
-
